@@ -1,4 +1,4 @@
-# A Plug-and-Play Temporal Normalization Module for Robust Remote Photoplethysmography
+# A Plug-and-Play Temporal Normalization Module for Robust Remote Photoplethysmography (rPPG)
 **The open-source code for [this paper](https://www.arxiv.org/pdf/2411.15283).**
 
 ![image](https://github.com/KegangWangCCNU/PICS/blob/main/TNprinciple.jpg)  
