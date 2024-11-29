@@ -19,7 +19,7 @@ self.ConvBlock2 = nn.Sequential(
     nn.ReLU(inplace=True),)
 ```
 
-## Inserting the TN module into any end-to-end model
+## Inserting TN into any end-to-end model (Pytorch)
 It is important to note that the TN module must operate on the temporal axis. For instance, in a transformer, it is necessary to first reshape and isolate the temporal axis before applying TN. 
 ```python
 # Reshape to B, T, H, W, C features
@@ -62,6 +62,9 @@ Please refer to [PhysNet_TN_rPPG-Toolbox.py](https://github.com/KegangWangCCNU/T
 `Example_rPPG-Toolbox.yaml` is its configuration file.  
 
 * __Note: For rPPG-Toolbox, do not use any preprocessing or postprocessing, and ensure that both the input and output in the yaml are set to 'Raw'.__
+
+![image](https://github.com/user-attachments/assets/e7603792-48fd-4a8a-9aa7-e7c49e5ddf82)
+
 
 ## Benchmark results with the TN module ([PhysBench](https://github.com/KegangWangCCNU/PhysBench))
 Please refer to the [source code](https://github.com/KegangWangCCNU/TemporalNormalization/blob/main/TN). 
